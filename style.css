@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+#ul-menu{
+    list-style: none;
+    height: 70vh;
+    
+}
+
+#ul-menu li{
+    margin-top:20px;
+    gap: 20px;
+} */
+
+
+#ul-menu {
+    list-style: none;
+    height: 75vh; /* Ajuste a altura para que atenda ao conteúdo esperado */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#ul-menu li{
+    margin:10px 35px;
+    
+}
+
+#ul-menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#tt{
+    padding-bottom:15px;
+}
+
+
+
