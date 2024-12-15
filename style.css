@@ -62,3 +62,18 @@ body{
 .blue{
     color: rgb(0, 123, 255);
 }
+
+#ismenu{
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#publicar i{
+    margin: 0px 10px;
+}
+
+#publicar button{
+    align-items: end;
+    justify-content: end;
+}
