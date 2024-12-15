@@ -76,4 +76,14 @@ body{
 #publicar button{
     margin-left: auto;
 }
+
+.imgredonda{
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 60px;
+}
+
+
+
 /* configurações aba direita tela(trends) */
