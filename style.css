@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'arial', 'Helvetica Neue' ;
     
 }
 
@@ -29,6 +30,8 @@ body{
 #ul-menu li a{
     text-decoration: none;
     color: black;
+    font-weight: bolder;
+    font-size: large;
 }
 
 #tt{
@@ -47,6 +50,29 @@ body{
     border-radius: 20px;
     height: 44px;
 }
+
+#perfil{
+    display: flex;
+    margin-left:42px;
+    padding: 20px 0px 20px 0px ;
+}
+
+#perfil div{
+    margin-left: 20px;
+    line-height: 8px;
+}
+
+#perfil h6{
+    font-weight: bolder;
+}
+
+#perfil p{
+    color: rgb(198, 190, 190);
+    font-size: small;
+}
+
+
+
 
 /* home main (parte do centro) */
 
@@ -84,6 +110,17 @@ body{
     height: 60px;
 }
 
+#publicar-flex{
+    margin: 10px 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#publicar-flex h4{
+    color: rgb(198, 190, 190);
+    margin-left: 20px;
+}
 
 
 /* configurações aba direita tela(trends) */
