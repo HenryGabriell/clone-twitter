@@ -9,7 +9,10 @@ body{
     overflow-x: hidden;
 }
 
-
+.blue{
+    color: rgb(0, 123, 255);
+}
+/* menu lateral esquerdo */
 #ul-menu {
     list-style: none;
     height: 75vh; 
@@ -45,6 +48,7 @@ body{
     height: 44px;
 }
 
+/* home main (parte do centro) */
 
 #divhome{
     display: flex;
@@ -57,10 +61,6 @@ body{
 #divhome i{
     margin: auto 0;
     
-}
-
-.blue{
-    color: rgb(0, 123, 255);
 }
 
 #ismenu{
@@ -77,3 +77,4 @@ body{
     align-items: end;
     justify-content: end;
 }
+/* configurações aba direita tela(trends) */
