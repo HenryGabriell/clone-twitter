@@ -59,22 +59,21 @@ body{
 }
 
 #divhome i{
-    margin: auto 0;
+    margin: auto 0px;
     
 }
 
 #ismenu{
     align-items: center;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;    
+    padding: 0px 30px;
 }
 
 #publicar i{
-    margin: 0px 10px;
+    margin: 0px 15px;
 }
 
 #publicar button{
-    align-items: end;
-    justify-content: end;
+    margin-left: auto;
 }
 /* configurações aba direita tela(trends) */
