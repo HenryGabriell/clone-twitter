@@ -125,31 +125,6 @@ body{
 
 /* configurações aba direita tela(trends) */
 
-#trendi{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid rgb(211, 211, 211);
-}
-
-#trendi h1{
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#trendi i{
-    margin-bottom: 3px;
-}
-
-#trend{
-    margin: 10px auto;
-    /* padding: ; */
-    width: 280px;
-    background: rgb(228, 228, 230);
-    border-radius: 20px;
-    
-}
-
 #btnsearch{
     padding-top: 7px;
     display: flex;
@@ -167,11 +142,33 @@ body{
     margin-right: 100px;
 }
 
-.linha{
-    border-bottom: 1px solid rgb(211, 211, 211); 
+#trendi{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 211, 211);
 }
 
-.bord{
+#trendi h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+#trendi i{
+    margin-left: 70px;
+}
+
+#trend{
+    margin: 10px;
+    width: 280px;
+    background: rgb(228, 228, 230);
+    border-radius: 20px;
+}
+
+.linha{
+    border-bottom: 1px solid rgb(211, 211, 211); 
 }
 
 .trendes{
