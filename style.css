@@ -162,6 +162,16 @@ body{
     border: 0px;
     border-radius: 20px;
 }
+
 #btnsearch div{
     margin-right: 100px;
+}
+
+.trendes {
+    background: green;
+    /* */
+}
+
+.trendes h6{
+    line-height: 0.1px; 
 }
