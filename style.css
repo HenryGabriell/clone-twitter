@@ -124,3 +124,44 @@ body{
 
 
 /* configurações aba direita tela(trends) */
+
+#trendi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#trendi h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#trendi i{
+    margin-bottom: 3px;
+    
+}
+
+#trend{
+    margin: 10px auto;
+    width: 280px;
+    height: 400px;
+    background: rgb(228, 228, 230);
+    border-radius: 20px;
+}
+
+#btnsearch{
+    padding-top: 7px;
+    display: flex;
+}
+
+#btnsearch button{
+    margin: 0 auto;
+    width: 260px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+}
+#btnsearch div{
+    margin-right: 100px;
+}
