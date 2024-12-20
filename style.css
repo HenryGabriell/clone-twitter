@@ -139,15 +139,15 @@ body{
 
 #trendi i{
     margin-bottom: 3px;
-    
 }
 
 #trend{
     margin: 10px auto;
+    /* padding: ; */
     width: 280px;
-    height: 400px;
     background: rgb(228, 228, 230);
     border-radius: 20px;
+    
 }
 
 #btnsearch{
@@ -167,11 +167,25 @@ body{
     margin-right: 100px;
 }
 
-.trendes {
-    background: green;
-    /* */
+.linha{
+    border-bottom: 1px solid rgb(211, 211, 211); 
+}
+
+.bord{
+}
+
+.trendes{
+    padding: 5px 10px;
 }
 
 .trendes h6{
-    line-height: 0.1px; 
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.trendes p{
+    margin-bottom: 0px;
+    color: rgb(133, 133, 133);
+    font-size: 13px;
+
 }
