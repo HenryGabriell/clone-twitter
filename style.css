@@ -13,6 +13,15 @@ body{
 .blue{
     color: rgb(0, 123, 255);
 }
+
+#ul-menu li #selecthome{
+    color: rgb(0, 123, 255);
+}
+
+i:hover{
+    cursor: pointer;
+}
+
 /* menu lateral esquerdo */
 #ul-menu {
     list-style: none;
@@ -62,12 +71,18 @@ body{
     line-height: 8px;
 }
 
+#perfil div i{
+    margin-left: 120%;
+    line-height: 0.1px;
+    font-size: large;
+}
+
 #perfil h6{
     font-weight: bolder;
 }
 
 #perfil p{
-    color: rgb(198, 190, 190);
+    color: rgb(198, 198, 198);
     font-size: small;
 }
 
@@ -86,7 +101,6 @@ body{
 
 #divhome i{
     margin: auto 0px;
-    
 }
 
 #ismenu{
@@ -118,8 +132,23 @@ body{
 }
 
 #publicar-flex h4{
-    color: rgb(198, 190, 190);
+    color: rgb(198, 198, 198);
     margin-left: 20px;
+}
+
+#botao2{
+    background-color: rgb(169, 218, 255);
+    justify-content: center;
+    align-items: center;
+    margin:10px 10px ;
+    width: 22%;
+    border-radius: 20px;
+    height: 38px;
+    border: 0px;
+}
+
+#botao2:hover{
+    background-color: rgb(0, 119, 255);
 }
 
 
@@ -185,4 +214,14 @@ body{
     color: rgb(133, 133, 133);
     font-size: 13px;
 
+}
+
+.trendes > div{
+    width: 260px;
+    display: flex;
+
+}
+
+.trendes > div i{
+    margin-left: auto;
 }
