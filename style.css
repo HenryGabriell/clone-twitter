@@ -96,6 +96,12 @@ i:hover{
 
 /* home main (parte do centro) */
 
+#mn{
+    border-right: 1px solid rgb(226, 226, 226);
+    border-left: 1px solid rgb(226, 226, 226);
+}
+
+
 #divhome{
     display: flex;
     text-align: center;
@@ -159,6 +165,8 @@ i:hover{
 
 /* configurações aba direita tela(trends) */
 
+
+
 #btnsearch{
     padding-top: 7px;
     display: flex;
@@ -187,7 +195,7 @@ i:hover{
     font-weight: 600;
     margin-bottom: 0px;
     margin-right: 0px;
-    padding: 10px;
+    padding: 13px;
 }
 
 #trendi i{
@@ -195,8 +203,7 @@ i:hover{
 }
 
 #trend{
-    margin: 10px;
-    width: 280px;
+    margin: 10px 0px 10px 0px;
     background: rgb(228, 228, 230);
     border-radius: 20px;
 }
@@ -234,6 +241,15 @@ i:hover{
 /* ------infos------ */
 
 #infos p{
-    padding: 10px;
-    color: rgb(100, 113, 255);
+    color: rgb(68, 95, 252);
+    margin: 10px 0px 0px 12px;
+}
+
+#infos ul li a{
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+}
+
+#infos ul i{
+    align-self: center;
 }
