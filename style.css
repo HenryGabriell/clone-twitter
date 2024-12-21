@@ -23,17 +23,22 @@ i:hover{
 }
 
 /* menu lateral esquerdo */
+
+#div1{
+    height: 100vh;
+    
+}
+
 #ul-menu {
     list-style: none;
-    height: 75vh; 
     display: flex;
     flex-direction: column;
     
+    margin-bottom: 0px;
 }
 
 #ul-menu li{
     margin:15px 35px;
-    
 }
 
 #ul-menu li a{
@@ -224,4 +229,11 @@ i:hover{
 
 .trendes > div i{
     margin-left: auto;
+}
+
+/* ------infos------ */
+
+#infos p{
+    padding: 10px;
+    color: rgb(100, 113, 255);
 }
