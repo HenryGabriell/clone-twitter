@@ -194,12 +194,12 @@ i:hover{
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 0px;
-    margin-right: 0px;
+    margin-left: 2px;
     padding: 13px;
 }
 
 #trendi i{
-    margin-left: 70px;
+    margin-left: 86px;
 }
 
 #trend{
@@ -213,7 +213,7 @@ i:hover{
 }
 
 .trendes{
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 
 .trendes h6{
