@@ -210,11 +210,16 @@ i:hover{
     margin-bottom: 0;
 }
 
-.flex-poste ul, li{
+.flex-poste  > ul{
     display: flex;
     padding-left: 0px;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-poste  ul  li{
+    display: flex;
+    
 }
 
 
