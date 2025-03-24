@@ -254,6 +254,10 @@ i:hover{
     text-decoration: underline;
 }
 
+.fa-regular.fa-heart:hover{
+    color: red;
+}
+
 
 
 
