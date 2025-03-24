@@ -348,3 +348,26 @@ i:hover{
 #infos ul i{
     align-self: center;
 }
+
+
+@media (max-width: 662px) {
+    main{
+        width: 100vw;
+    }
+    .row > .col-3{
+        width: 0;
+    }
+    .row{
+        width: 0;
+    }
+    #poste4{
+        margin-top: 25px;
+    }
+    #div1{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+  }
+  
