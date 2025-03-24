@@ -246,12 +246,23 @@ i:hover{
     margin-bottom: 15px;
 }
 
+/*main final*/
 
+#finalposte{
+    margin: 10px;
+    display: flex
+}
 
+#finalposte >div{
+    margin: 0 auto;
+    padding-top: 5px;
+}
 
-
-
-
+#finalposte >div:hover{
+    cursor: pointer;
+    color: rgb(101, 175, 255);
+    text-decoration: underline;
+}
 
 
 
